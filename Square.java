@@ -5,7 +5,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
-public class Square extends Shape {
+public class Square extends Rectangle {
+	
 	@Override
 	public void draw(Graphics g) {
 		g.setColor(Color.BLUE);
